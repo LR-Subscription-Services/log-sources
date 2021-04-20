@@ -1,0 +1,1 @@
+<[^:]+:(?<severity>[^>]+)>\s\S{3}\s\d{2}\s[^\s]+\s(?:<dip>|(?<dname>\S+))\s(?<object>.*?)\s-\s+((?<objectname>stamgr|APMgr|syslog|snmpd.*?):\s+(?<subject>.*?)$|\s\S{3}\s\d{2}\s[^\s]+\s\S+:\s(?<subject>.*?)$)

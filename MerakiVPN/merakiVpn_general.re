@@ -1,0 +1,1 @@
+<[^:]+:(?<severity>[^>]+)> \d+ \d+\.\d+ (?<object>\S+) events (?<policy>\S+) ((user id '(?<login>.*?)' local ip<dip> connected from<sip>)|(VPN: ))((?<objectname>\S+) established:? (ESP\/Transport )?(<sip>)\[(?<sport>\d+)\]->?(<dip>)\[(?<dport>\d+)\] spi(:|=)(?<hash>\S+))?(.*?configuration found for<dip>\.)?(?<subject>(.*?time up\. (?<hash>\S+))?.*?)$

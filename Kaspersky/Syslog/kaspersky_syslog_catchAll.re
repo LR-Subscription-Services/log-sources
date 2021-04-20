@@ -1,0 +1,1 @@
+^.*(?<tag1><.*?>).*?et=(?<vendorinfo>"\w+") etdn=(?<status>".*?") hdn=(?<sname>".*?") hip="<sip>"] (?<subject>.*)

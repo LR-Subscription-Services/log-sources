@@ -1,0 +1,1 @@
+eventtype="(?<group>authentication)",username="(?<login>.*?)",factor="(?<vmid>(?<action>.*?))"\s+result="(?<tag1>(?<result>.*?))",\s+reason="(?<tag2>(?<reason>.*?))",\s+ip="(?<sip.*?)",\s+intergrration="(?<subject>(?<policy>.*?))",\s+newenrollment="(?<tag3>.*?)"

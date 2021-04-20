@@ -1,0 +1,1000 @@
+<?xml version="1.0" standalone="yes"?>
+<RuleDataset>
+  <ExportInfo>
+    <ExportConsoleVersion>7.2.5.0</ExportConsoleVersion>
+    <KBVersion>7.1.425.4</KBVersion>
+    <DateExported>2018-01-23T13:13:28.8881319-06:00</DateExported>
+    <ExportLicense>1274810</ExportLicense>
+    <ExportUser>NMH\NM201041</ExportUser>
+  </ExportInfo>
+  <MPERule>
+    <MPERuleID>1000000054</MPERuleID>
+    <MPERuleRegexID>1000000009</MPERuleRegexID>
+    <RuleStatus>2</RuleStatus>
+    <StatusName>Test</StatusName>
+    <CommonEventID>1024165</CommonEventID>
+    <CommonEventName>General Information Log Message</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>RQ: AMP Catch All</Name>
+    <FullName>RQ: AMP Catch All</FullName>
+    <BaseRule>1</BaseRule>
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-01-19T23:17:07.987-06:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000055</MPERuleID>
+    <MPERuleRegexID>1000000009</MPERuleRegexID>
+    <RuleStatus>2</RuleStatus>
+    <StatusName>Test</StatusName>
+    <CommonEventID>1032645</CommonEventID>
+    <CommonEventName>Vuln Medium Severity : General</CommonEventName>
+    <MsgClassID>2700</MsgClassID>
+    <Name>Vulnerable Application Detected</Name>
+    <FullName>Vulnerable Application Detected</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>5</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-01-19T21:48:11.497-06:00</DateUpdated>
+    <SortOrder>1</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=1107296279</MapVMID>
+    <MapDIP>*</MapDIP>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <MapSubject>*</MapSubject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000056</MPERuleID>
+    <MPERuleRegexID>1000000009</MPERuleRegexID>
+    <RuleStatus>2</RuleStatus>
+    <StatusName>Test</StatusName>
+    <CommonEventID>1034450</CommonEventID>
+    <CommonEventName>Detected Malware Activity</CommonEventName>
+    <MsgClassID>2400</MsgClassID>
+    <Name>Threat Detected - Unknown</Name>
+    <FullName>Threat Detected - Unknown</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>9</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-01-19T21:48:11.497-06:00</DateUpdated>
+    <SortOrder>2</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=1090519054</MapVMID>
+    <MapDIP>*</MapDIP>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <MapSubject>*</MapSubject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000057</MPERuleID>
+    <MPERuleRegexID>1000000009</MPERuleRegexID>
+    <RuleStatus>2</RuleStatus>
+    <StatusName>Test</StatusName>
+    <CommonEventID>1034450</CommonEventID>
+    <CommonEventName>Detected Malware Activity</CommonEventName>
+    <MsgClassID>2400</MsgClassID>
+    <Name>Threat Detected - Known  Malicious</Name>
+    <FullName>Threat Detected - Known  Malicious</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>9</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-01-19T21:48:11.5-06:00</DateUpdated>
+    <SortOrder>3</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=1090519054</MapVMID>
+    <MapDIP>*</MapDIP>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <MapSubject>*</MapSubject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000058</MPERuleID>
+    <MPERuleRegexID>1000000009</MPERuleRegexID>
+    <RuleStatus>2</RuleStatus>
+    <StatusName>Test</StatusName>
+    <CommonEventID>1034460</CommonEventID>
+    <CommonEventName>Possible Malware Activity</CommonEventName>
+    <MsgClassID>2400</MsgClassID>
+    <Name>Potential Dropper Infection</Name>
+    <FullName>Potential Dropper Infection</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>9</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-01-19T21:48:11.5-06:00</DateUpdated>
+    <SortOrder>4</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=1107296258</MapVMID>
+    <MapDIP>*</MapDIP>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <MapSubject>*</MapSubject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000059</MPERuleID>
+    <MPERuleRegexID>1000000009</MPERuleRegexID>
+    <RuleStatus>2</RuleStatus>
+    <StatusName>Test</StatusName>
+    <CommonEventID>1034450</CommonEventID>
+    <CommonEventName>Detected Malware Activity</CommonEventName>
+    <MsgClassID>2400</MsgClassID>
+    <Name>Executed malware</Name>
+    <FullName>Executed malware</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>9</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-01-19T21:48:11.5-06:00</DateUpdated>
+    <SortOrder>5</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=1107296272</MapVMID>
+    <MapDIP>*</MapDIP>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <MapSubject>*</MapSubject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000060</MPERuleID>
+    <MPERuleRegexID>1000000009</MPERuleRegexID>
+    <RuleStatus>2</RuleStatus>
+    <StatusName>Test</StatusName>
+    <CommonEventID>1034468</CommonEventID>
+    <CommonEventName>Suspicious Activity</CommonEventName>
+    <MsgClassID>2200</MsgClassID>
+    <Name>Generic IOC</Name>
+    <FullName>Generic IOC</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>6</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-01-19T21:48:11.5-06:00</DateUpdated>
+    <SortOrder>6</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=1107296274</MapVMID>
+    <MapDIP>*</MapDIP>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <MapSubject>*</MapSubject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000061</MPERuleID>
+    <MPERuleRegexID>1000000009</MPERuleRegexID>
+    <RuleStatus>2</RuleStatus>
+    <StatusName>Test</StatusName>
+    <CommonEventID>1019592</CommonEventID>
+    <CommonEventName>Anti-Virus Policy Failure</CommonEventName>
+    <MsgClassID>3300</MsgClassID>
+    <Name>Policy Update Failure</Name>
+    <FullName>Policy Update Failure</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>5</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-01-19T21:48:11.5-06:00</DateUpdated>
+    <SortOrder>7</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=2164260866</MapVMID>
+    <MapDIP>*</MapDIP>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <MapSubject>*</MapSubject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000062</MPERuleID>
+    <MPERuleRegexID>1000000009</MPERuleRegexID>
+    <RuleStatus>2</RuleStatus>
+    <StatusName>Test</StatusName>
+    <CommonEventID>1027504</CommonEventID>
+    <CommonEventName>General Fault</CommonEventName>
+    <MsgClassID>3200</MsgClassID>
+    <Name>Critical Fault Raised</Name>
+    <FullName>Critical Fault Raised</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>7</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-01-19T21:48:11.5-06:00</DateUpdated>
+    <SortOrder>8</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=2164260931</MapVMID>
+    <MapDIP>*</MapDIP>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <MapSubject>*</MapSubject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000063</MPERuleID>
+    <MPERuleRegexID>1000000009</MPERuleRegexID>
+    <RuleStatus>2</RuleStatus>
+    <StatusName>Test</StatusName>
+    <CommonEventID>1022703</CommonEventID>
+    <CommonEventName>Whitelisted Message</CommonEventName>
+    <MsgClassID>2860</MsgClassID>
+    <Name>Threat Detected - Whitelisted</Name>
+    <FullName>Threat Detected - Whitelisted</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-01-19T23:17:03.723-06:00</DateUpdated>
+    <SortOrder>9</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=553648145</MapVMID>
+    <MapDIP>*</MapDIP>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <MapSubject>*</MapSubject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000064</MPERuleID>
+    <MPERuleRegexID>1000000009</MPERuleRegexID>
+    <RuleStatus>2</RuleStatus>
+    <StatusName>Test</StatusName>
+    <CommonEventID>1034450</CommonEventID>
+    <CommonEventName>Detected Malware Activity</CommonEventName>
+    <MsgClassID>2400</MsgClassID>
+    <Name>Cloud Recall Quarantine of False Negative</Name>
+    <FullName>Cloud Recall Quarantine of False Negative</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>9</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-01-19T21:48:11.503-06:00</DateUpdated>
+    <SortOrder>10</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=553648147</MapVMID>
+    <MapDIP>*</MapDIP>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <MapSubject>*</MapSubject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000125</MPERuleID>
+    <MPERuleRegexID>1000000009</MPERuleRegexID>
+    <RuleStatus>2</RuleStatus>
+    <StatusName>Test</StatusName>
+    <CommonEventID>1030108</CommonEventID>
+    <CommonEventName>Install Started</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Install Started</Name>
+    <FullName>Install Started</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-01-19T21:48:11.503-06:00</DateUpdated>
+    <SortOrder>11</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=553648158</MapVMID>
+    <MapDIP>*</MapDIP>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <MapSubject>*</MapSubject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000126</MPERuleID>
+    <MPERuleRegexID>1000000009</MPERuleRegexID>
+    <RuleStatus>2</RuleStatus>
+    <StatusName>Test</StatusName>
+    <CommonEventID>1035932</CommonEventID>
+    <CommonEventName>Update Process Started</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Product Update Started</Name>
+    <FullName>Product Update Started</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-01-19T21:48:11.503-06:00</DateUpdated>
+    <SortOrder>12</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=553648135</MapVMID>
+    <MapDIP>*</MapDIP>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <MapSubject>*</MapSubject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000127</MPERuleID>
+    <MPERuleRegexID>1000000009</MPERuleRegexID>
+    <RuleStatus>2</RuleStatus>
+    <StatusName>Test</StatusName>
+    <CommonEventID>1019856</CommonEventID>
+    <CommonEventName>Update Failed</CommonEventName>
+    <MsgClassID>3200</MsgClassID>
+    <Name>Product Update Started</Name>
+    <FullName>Product Update Started</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>7</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-01-19T21:48:11.503-06:00</DateUpdated>
+    <SortOrder>13</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=553648137</MapVMID>
+    <MapDIP>*</MapDIP>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <MapSubject>*</MapSubject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000128</MPERuleID>
+    <MPERuleRegexID>1000000009</MPERuleRegexID>
+    <RuleStatus>2</RuleStatus>
+    <StatusName>Test</StatusName>
+    <CommonEventID>1035726</CommonEventID>
+    <CommonEventName>Scan Started</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Scan Started</Name>
+    <FullName>Scan Started</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-01-19T21:48:11.503-06:00</DateUpdated>
+    <SortOrder>14</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=554696714</MapVMID>
+    <MapDIP>*</MapDIP>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <MapSubject>*</MapSubject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000129</MPERuleID>
+    <MPERuleRegexID>1000000009</MPERuleRegexID>
+    <RuleStatus>2</RuleStatus>
+    <StatusName>Test</StatusName>
+    <CommonEventID>19186</CommonEventID>
+    <CommonEventName>Virus Scan Completed - No Viruses Found</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Scan Completed - No Detections</Name>
+    <FullName>Scan Completed - No Detections</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-01-19T21:48:11.507-06:00</DateUpdated>
+    <SortOrder>15</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=554696715</MapVMID>
+    <MapDIP>*</MapDIP>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <MapSubject>*</MapSubject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000130</MPERuleID>
+    <MPERuleRegexID>1000000009</MPERuleRegexID>
+    <RuleStatus>2</RuleStatus>
+    <StatusName>Test</StatusName>
+    <CommonEventID>14640</CommonEventID>
+    <CommonEventName>Update</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Policy Update</Name>
+    <FullName>Policy Update</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-01-19T21:48:11.507-06:00</DateUpdated>
+    <SortOrder>16</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=553648130</MapVMID>
+    <MapDIP>*</MapDIP>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <MapSubject>*</MapSubject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000131</MPERuleID>
+    <MPERuleRegexID>1000000009</MPERuleRegexID>
+    <RuleStatus>2</RuleStatus>
+    <StatusName>Test</StatusName>
+    <CommonEventID>1029536</CommonEventID>
+    <CommonEventName>General File Transfer Message</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>File Fetch Completed</Name>
+    <FullName>File Fetch Completed</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-01-19T21:48:11.507-06:00</DateUpdated>
+    <SortOrder>17</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=553648173</MapVMID>
+    <MapDIP>*</MapDIP>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <MapSubject>*</MapSubject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERule>
+    <MPERuleID>1000000132</MPERuleID>
+    <MPERuleRegexID>1000000009</MPERuleRegexID>
+    <RuleStatus>2</RuleStatus>
+    <StatusName>Test</StatusName>
+    <CommonEventID>1029536</CommonEventID>
+    <CommonEventName>General File Transfer Message</CommonEventName>
+    <MsgClassID>3400</MsgClassID>
+    <Name>File Fetch Failed</Name>
+    <FullName>File Fetch Failed</FullName>
+    <BaseRule>0</BaseRule>
+    <ShortDesc />
+    <LongDesc />
+    <DefMsgTTL>32</DefMsgTTL>
+    <DefMsgArchiveMode>2</DefMsgArchiveMode>
+    <DefMsgArchiveModeBool>true</DefMsgArchiveModeBool>
+    <DefForwarding>1</DefForwarding>
+    <DefForwardingBool>true</DefForwardingBool>
+    <DefRiskRating>0</DefRiskRating>
+    <DefFalseAlarmRating>0</DefFalseAlarmRating>
+    <MapTag1>*</MapTag1>
+    <InheritTech>1</InheritTech>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-01-19T21:48:11.507-06:00</DateUpdated>
+    <SortOrder>18</SortOrder>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+    <SHostIs>0</SHostIs>
+    <DHostIs>1</DHostIs>
+    <ServiceIs>0</ServiceIs>
+    <HostContext>0</HostContext>
+    <PrefixBaseRuleName>0</PrefixBaseRuleName>
+    <IsSystemRule>No</IsSystemRule>
+    <NewRuleRecordType>0</NewRuleRecordType>
+    <MapVMID>=2164260910</MapVMID>
+    <MapDIP>*</MapDIP>
+    <MapDName>*</MapDName>
+    <MapLogin>*</MapLogin>
+    <MapDomain>*</MapDomain>
+    <MapProcess>*</MapProcess>
+    <MapObject>*</MapObject>
+    <MapSubject>*</MapSubject>
+    <DefLogMartMode>13627389</DefLogMartMode>
+  </MPERule>
+  <MPERuleRegex>
+    <MPERuleRegexID>1000000009</MPERuleRegexID>
+    <RegexTagged>(?:,"event_type":"(?&lt;tag1&gt;[^"]*)","event_type_id":(?&lt;vmid&gt;\d*))(,"detection":"(?&lt;objecttype&gt;[^"]*)")?(?:,"detection_id":"\d*")?(,"group_guids":\[[^\]]*\])?(,"start_timestamp":\d*,"start_date":"[^"]*")?(,"error":\{"error_code":(?:\d*),"description":"(?&lt;reason&gt;[^\.\"]*)(?:[\."\}]*))?(,"computer":{"connector_guid":"[^"]*","hostname":"(?&lt;dname&gt;[^\"\.]*)\.?(?&lt;domain&gt;[^"]*)?","external_ip":"(?&lt;dnatip&gt;\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})"(?:,"user":"(?&lt;login&gt;[^\@\"]*)[^"]*")?,"active":(?:\w*)\,"network_addresses":\[\{"ip":"(?&lt;dip&gt;\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})?","mac":"(?&lt;dmac&gt;[\w\:]*)?"\}[^\]]*\])?(?:,"links":\{[^\}]*\}\})?(?:,"generic_ioc":{\"description":"(?&lt;subject&gt;[^\.\"]*)[\."]*,"short_description":"(?&lt;objecttype&gt;[^"]*)"\})?(?:,"file":\{"disposition":"(?&lt;reason&gt;[^"]*)","file_name":"(?&lt;process&gt;[^"]*)","file_path":"(?&lt;object&gt;.*?)","(?:identity":{"sha256":"(?&lt;hash&gt;[^"]*)"(?:,"sha1":"(?:[^"]*)")?(,"md5":"(?:[^"]*)")?\})?(?:,"parent":\{("process_id":(?:\d+))?(,"disposition":"(?:[^"]+)","file_name":"(?&lt;parentprocess&gt;[^"]+)")?(?:,"identity":\{)"sha256":"(?&lt;parentprocessid&gt;[^"]+)?)?)?</RegexTagged>
+    <IgnoreCase>1</IgnoreCase>
+    <Multiline>0</Multiline>
+    <RecordStatus>1</RecordStatus>
+    <DateUpdated>2018-01-19T23:17:07.987-06:00</DateUpdated>
+    <PerfMonMode>1</PerfMonMode>
+    <VersionMajor>4</VersionMajor>
+    <VersionMinor>1</VersionMinor>
+  </MPERuleRegex>
+  <MPERuleToMST>
+    <MsgSourceTypeID>1000000004</MsgSourceTypeID>
+    <MPERuleRegexID>1000000009</MPERuleRegexID>
+    <SortOrder>1</SortOrder>
+    <AutoSort>0</AutoSort>
+  </MPERuleToMST>
+  <CommonEvent>
+    <CommonEventID>14640</CommonEventID>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Update</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2009-11-19T09:40:11.873-06:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>19186</CommonEventID>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Virus Scan Completed - No Viruses Found</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2008-02-13T15:21:24.033-06:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1019592</CommonEventID>
+    <MsgClassID>3300</MsgClassID>
+    <Name>Anti-Virus Policy Failure</Name>
+    <ShortDesc />
+    <DefRiskRating>5</DefRiskRating>
+    <DateUpdated>2009-03-23T15:13:34.523-05:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1019856</CommonEventID>
+    <MsgClassID>3200</MsgClassID>
+    <Name>Update Failed</Name>
+    <ShortDesc />
+    <DefRiskRating>7</DefRiskRating>
+    <DateUpdated>2009-04-22T11:09:25.413-05:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1022703</CommonEventID>
+    <MsgClassID>2860</MsgClassID>
+    <Name>Whitelisted Message</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2009-08-20T14:31:49.443-05:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1024165</CommonEventID>
+    <MsgClassID>3400</MsgClassID>
+    <Name>General Information Log Message</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2009-11-03T15:56:11.753-06:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1027504</CommonEventID>
+    <MsgClassID>3200</MsgClassID>
+    <Name>General Fault</Name>
+    <ShortDesc />
+    <DefRiskRating>7</DefRiskRating>
+    <DateUpdated>2010-02-10T15:57:50.563-06:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1029536</CommonEventID>
+    <MsgClassID>3400</MsgClassID>
+    <Name>General File Transfer Message</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2010-07-20T11:50:24.963-05:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1030108</CommonEventID>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Install Started</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2010-11-12T17:02:24.727-06:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1032645</CommonEventID>
+    <MsgClassID>2700</MsgClassID>
+    <Name>Vuln Medium Severity : General</Name>
+    <ShortDesc />
+    <DefRiskRating>5</DefRiskRating>
+    <DateUpdated>2011-06-29T17:52:49.407-05:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1034450</CommonEventID>
+    <MsgClassID>2400</MsgClassID>
+    <Name>Detected Malware Activity</Name>
+    <ShortDesc />
+    <DefRiskRating>9</DefRiskRating>
+    <DateUpdated>2012-04-25T17:53:42.407-05:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1034460</CommonEventID>
+    <MsgClassID>2400</MsgClassID>
+    <Name>Possible Malware Activity</Name>
+    <ShortDesc />
+    <DefRiskRating>9</DefRiskRating>
+    <DateUpdated>2012-04-25T17:53:42.427-05:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1034468</CommonEventID>
+    <MsgClassID>2200</MsgClassID>
+    <Name>Suspicious Activity</Name>
+    <ShortDesc />
+    <DefRiskRating>6</DefRiskRating>
+    <DateUpdated>2012-04-26T10:18:58.89-05:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1035726</CommonEventID>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Scan Started</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2014-12-19T12:14:52.39-06:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <CommonEvent>
+    <CommonEventID>1035932</CommonEventID>
+    <MsgClassID>3400</MsgClassID>
+    <Name>Update Process Started</Name>
+    <ShortDesc />
+    <DefRiskRating>0</DefRiskRating>
+    <DateUpdated>2015-07-13T11:23:06.623-05:00</DateUpdated>
+    <RecordStatus>1</RecordStatus>
+  </CommonEvent>
+  <MsgSourceType>
+    <MsgSourceTypeID>1000000004</MsgSourceTypeID>
+    <Name>RQ: Flat File - Cisco AMP</Name>
+    <FullName>RQ: Flat File - Cisco AMP</FullName>
+    <Abbreviation>Cisco AMP</Abbreviation>
+    <ShortDesc />
+    <LongDesc />
+    <ParentMsgSourceTypeID>1000000000</ParentMsgSourceTypeID>
+    <IsMst>1</IsMst>
+    <DateUpdated>2018-01-17T23:30:55.373-06:00</DateUpdated>
+    <MsgSourceFormat>3</MsgSourceFormat>
+    <RecordStatus>1</RecordStatus>
+  </MsgSourceType>
+</RuleDataset>

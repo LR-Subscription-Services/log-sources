@@ -1,0 +1,2 @@
+
+CEF:\d+\|Palo Alto Networks\|.*?\|(?<version>.*?)\|(?<vmid>.*?)\|(THREAT|TRAFFIC)\|.*?deviceExternalId=(?<object>\S+) src=<sip> dst=<dip>.*?suser=((?<domain>.*?)\\)?(?<account>\S+)? duser=((?<domain>.*?)\\)?(?<login>\S+)?.*?deviceInboundInterface=(?<sinterface>\S+)? deviceOutboundInterface=(?<dinteface>\S+)?.*?spt=(?<sport>\d+) dpt=(?<dport>\d+).*?proto=(?<protname>\S+) act=(?<command>\S+)(.*?in=(?<bytesin>\d+) out=(?<bytesout>\d+))?(.*?PacketsReceived=(?<packetsin>\d+).*?PacketsSent=(?<packetsout>\d+))?

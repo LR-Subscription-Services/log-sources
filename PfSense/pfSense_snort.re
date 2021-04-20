@@ -1,0 +1,1 @@
+\ssnort\[[0-9]*\]:\s\[(?<snort_sid>[0-9:].*?)\]\s\((?<snort_preprocessor>.*)\)\s(?<subject>.*)\[Classification:\s(?<vendorinfo>.*)\]\s\[Priority:\s<severity>]\s\{<protname>}\s<sip>:<sport>\s\-\>\s<dip>:<dport>

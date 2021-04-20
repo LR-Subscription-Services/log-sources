@@ -1,0 +1,1 @@
+^.*? - - - (?<sname>\w+).*\|(?<process>(memory))\|memory\|%({shortterm})\|%({midterm})\|%({longterm})\|%{plugin_instance}\|%{read}\|%{write}\|%{rx}\|%{tx}\|collectd\|(?<action>(buffered)|(cached)|(used)|(free)|(slab_recl)|(pool_nonpaged)|(working_set)|(used)|(slab_unrecl)|(pool_paged)|(available)|(system_cache)|(system_code)|(system_driver))\|(?<bytes>(\S+))

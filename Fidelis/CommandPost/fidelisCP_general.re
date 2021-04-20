@@ -1,0 +1,4 @@
+^.*?<SAU1:ALRT>.*?Sensor="(?<object>.*?)"\sAlertId="(?<objectname>.*?)"\sSeverity="(?<severity>.*?)"\s.*?Group="(?<group>.*?)"\sSrcIP="(?<sip>\b(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\b)"\sSrcPort="(?<sport>.*?)"\sDestIP="(?<dip>\b(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\b)"\sDestPort="(?<dport>.*?)"\sPolicy="(?<policy>.*?)"\sRule="(?<vmid>.*?)".*?Message="(?<subject>.*?)"\sMD5="(?<hash>.*?).*?.*?$
+
+SAMPLE LOG:
+06 28 2017 15:59:17 1.1.1.1 <SAU1:ALRT> Jun 28 15:59:24 FN_Commandpost Product="Fidelis network" Sensor="FN_Internal01" AlertId="c042bbdb-5c6e-11e7-a4c9-1c98ec17a5d8" Severity="medium" Protocol="TLS" Action="alert" Group="default" SrcIP="3.1.1.1" SrcPort="45445" DestIP="6.1.1.1" DestPort="443" Policy="Customer Policy" Rule="Customer Rule" Malware="<n/a> <n/a>" Message="Customer Message" MD5="<n/a>" Filename="<n/a>" Target="TLS:6.1.1.1"

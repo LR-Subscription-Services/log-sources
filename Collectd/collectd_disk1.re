@@ -1,0 +1,1 @@
+^.*? - - - (?<sname>\w+).*\|(?<process>disk)\|(?<action>\w+)\|%({shortterm})\|%({midterm})\|%({longterm})\|.*?(?<object>\D+)\|(?<bytesin>[0-9]*)\|(?<bytesout>[0-9]*)\|%{rx}\|%{tx}\|collectd\|%({type_instance})\|%({value})
